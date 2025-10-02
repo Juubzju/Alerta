@@ -24,7 +24,7 @@ public class AlertaService {
 
     public List<Alerta> getUltimosFocos() {
         try {
-
+//
             String url = buildUrlParaUltimoCsvDisponivel();
             System.out.println("Buscando dados de: " + url);
 
